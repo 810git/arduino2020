@@ -27,6 +27,6 @@ void loop() {
   digitalWrite(PIN_HEATER,HIGH); // Heater Off
  
 
- Serial.println(val); 
+ Serial.println(val/4096*3.3); 
 
 }
